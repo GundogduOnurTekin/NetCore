@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "CalculatorView";
+}
+
+<html>
+
+<body>
+    <form action="total" method="post">
+        <div>
+            <input type="number" name="value1" placeholder="sayı bir" /> <br />
+            <input type="number" name="value2" placeholder="sayı bir" /> <br />
+            <input type="radio" value="topla" name="toDo" />+<br />
+            <input type="radio" value="çıkar" name="toDo" />-<br />
+            <input type="radio" value="çarp" name="toDo" />*<br />
+            <input type="radio" value="böl" name="toDo" />/<br />
+            <input type="submit" value="Calculate = " />
+            <text id="label1">sonuc </text>
+        </div>
+    </form>
+</body>
+</html>
